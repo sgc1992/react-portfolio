@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Nav from './components/Nav';
 import About from './components/About';
 import Footer from './components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Nav/>
     <About/>
     <Footer/>
   </React.StrictMode>,
