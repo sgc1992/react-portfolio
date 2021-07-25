@@ -5,12 +5,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Nav from './components/Nav';
 import About from './components/About';
+import Project from './components/Project';
 import Footer from './components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
     <Nav/>
     <About/>
+    <Project/>
     <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
