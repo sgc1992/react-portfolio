@@ -1,5 +1,6 @@
 import React from "react";
 import './nav.css';
+import PDF from "./Resume.pdf";
 
 
 function Nav() {
@@ -11,7 +12,7 @@ function Nav() {
         </div>
       </div>
 
-      <li><a href="./Images/Sandeep GC Resume.pdf">Resume</a></li>
+      <li><a href={PDF}>Resume</a></li>
       <li><a href="#Contact me">Contact me</a></li>
       <li><a href="#Work">Work</a></li>
       <li><a href="#About me">About me</a></li>
