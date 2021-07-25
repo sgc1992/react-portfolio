@@ -1,5 +1,6 @@
 import React from "react";
 import './project.css';
+// import image from './Images/';
 
 
 function Project() {
