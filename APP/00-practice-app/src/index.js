@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -12,8 +12,7 @@ import Form from './components/Form';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      
+    <Router>
       <Route exact path="/react-portfolio">
         <Nav />
         <About />
@@ -23,7 +22,7 @@ ReactDOM.render(
       <Route exact path="/contact">
         <Form />
       </Route>
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
