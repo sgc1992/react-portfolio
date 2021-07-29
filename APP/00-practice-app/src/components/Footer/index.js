@@ -12,7 +12,7 @@ function Footer() {
       <div class="container2">
 
         <div id ="Contact me" class="section-title"><Link to ="/contact">Contact me</Link></div>
-        <div class="section-content"><a>0420760898</a>
+        <div class="section-content"><a href>0420760898</a>
         </div>
         <div class="section-content"><a href="mailto:sandeep_gc@hotmail.com">sandeep_gc@hotmail.com</a></div>
         <div class="section-content"><a href="https://www.linkedin.com/in/sandeep-gc">Linkedin</a>
