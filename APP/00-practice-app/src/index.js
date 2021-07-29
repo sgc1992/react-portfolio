@@ -12,7 +12,8 @@ import Form from './components/Form';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
+      
       <Route exact path="/react-portfolio">
         <Nav />
         <About />
