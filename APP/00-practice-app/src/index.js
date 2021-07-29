@@ -19,7 +19,7 @@ ReactDOM.render(
         <Project />
         <Footer />
       </Route>
-      <Route exact path="/contact">
+      <Route path="/contact">
         <Form />
       </Route>
     </Router>
