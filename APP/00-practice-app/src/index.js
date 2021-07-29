@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import Form from './components/Form';
 
 ReactDOM.render(
-  <React.StrictMode>
+  
     <Router>
       <Route exact path="/react-portfolio">
         <Nav />
@@ -23,7 +23,7 @@ ReactDOM.render(
         <Form />
       </Route>
     </Router>
-  </React.StrictMode>,
+  ,
   document.getElementById('root')
 );
 
